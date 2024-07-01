@@ -187,3 +187,24 @@
 
 # for person in phonebook:
 #     print("%s 's phone number is %d" %(person, phonebook[person]))
+
+# import module1
+
+# module1.texts()
+
+# from module1 import texts
+
+# texts()
+
+# from module1 import *
+
+# texts()
+
+# import re
+# find_members = []
+# for functo in dir(re):
+#     if "find" in functo:
+#         find_members.append(functo)
+# find_members.sort()
+# print(find_members)
+
