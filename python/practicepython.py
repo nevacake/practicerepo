@@ -208,3 +208,18 @@
 # find_members.sort()
 # print(find_members)
 
+def fib():
+    a = 1
+    b = 1
+    while True:
+        f = a + b
+        a = b
+        b = f
+        yield f
+
+counter = 0
+for n in fib():
+    print(n)
+    counter += 1
+    if counter == 10:
+        break
